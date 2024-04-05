@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "GitHub Packages tutorial",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "exit 0"
+    "test": "npx jest"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/heiwa4126/hello-github-package/issues"
   },
-  "homepage": "https://github.com/heiwa4126/hello-github-package#readme"
+  "homepage": "https://github.com/heiwa4126/hello-github-package#readme",
+  "files": [
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "index.js"
+  ],
+  "devDependencies": {
+    "jest": "~29"
+  }
 }
