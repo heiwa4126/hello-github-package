@@ -1,0 +1,22 @@
+{
+  "name": "@heiwa4126/hello-github-package",
+  "version": "1.0.0",
+  "description": "GitHub Packages tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heiwa4126/hello-github-package.git"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "heiwa4126@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heiwa4126/hello-github-package/issues"
+  },
+  "homepage": "https://github.com/heiwa4126/hello-github-package#readme"
+}
