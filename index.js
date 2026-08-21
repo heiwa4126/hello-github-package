@@ -3,6 +3,6 @@
  * @returns {string} The greeting message.
  */
 function hello() {
-  return "Hello, GitHub Packaes!";
+	return "Hello, GitHub Packaes!";
 }
 module.exports = { hello };
